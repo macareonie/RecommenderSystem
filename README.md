@@ -2,6 +2,14 @@
 
 Personal recommender system leveraging a manual algorithm to generate anime recommendations according to personal taste, leveraging my own ratings done on MyAnimeList over the years. This would make use of Jaccard index for genre set similarities and numerical comparison for ratings and other metadata. Vectorization is a potential option for cosine similarity comparison of synopses but would not be a priority
 
+calculate weighted similarity score sum between:
+
+- anime ratings json file (from personal site)
+- upcoming candidate animes
+- released candidate animes
+
+** due to rate limiting, only 50 candidates of each type (total 100) to choose recommendations from **
+
 ## Things to note:
 
 - Given the single user situation, system will be a content-based filtering approach rather than a collaborative-based one
