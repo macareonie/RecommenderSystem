@@ -1,4 +1,4 @@
-data/
+data/*
 analysis.ipynb
 src/__pycache__/
 *.pyc
